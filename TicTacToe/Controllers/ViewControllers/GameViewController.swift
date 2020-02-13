@@ -47,15 +47,15 @@ class GameViewController: UIViewController {
     // Win count labels
     @IBOutlet weak var playerOneWinCountLabel: UILabel!
     @IBOutlet weak var playerTwoWinCountLabel: UILabel!
-    // grid of buttons
+    // top row of buttons
     @IBOutlet weak var topLeftButton: UIButton!
     @IBOutlet weak var topCenterButton: UIButton!
     @IBOutlet weak var topRightButton: UIButton!
-    
+    // middle row of buttons
     @IBOutlet weak var middleLeftButton: UIButton!
     @IBOutlet weak var middleCenterButton: UIButton!
     @IBOutlet weak var middleRightButton: UIButton!
-    
+    // bottom row of buttons
     @IBOutlet weak var bottomLeftButton: UIButton!
     @IBOutlet weak var bottomCenterButton: UIButton!
     @IBOutlet weak var bottomRightButton: UIButton!
