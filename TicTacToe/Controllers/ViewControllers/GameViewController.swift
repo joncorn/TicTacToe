@@ -70,9 +70,11 @@ class GameViewController: UIViewController {
     // Each of the 9 buttons are linked to this action
     @IBAction func gridButtonTapped(_ sender: UIButton) {
         if currentPlayer == playerOne {
+            sender.adjustsImageWhenDisabled = false
             sender.setBackgroundImage(#imageLiteral(resourceName: "transparentX2"), for: .normal)
             sender.isEnabled = false
         } else {
+            sender.adjustsImageWhenDisabled = false
             sender.setBackgroundImage(#imageLiteral(resourceName: "transparentO"), for: .normal)
             sender.isEnabled = false
         }

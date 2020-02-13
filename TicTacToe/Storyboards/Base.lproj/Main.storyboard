@@ -38,10 +38,12 @@
                                             <action selector="gridButtonTapped:" destination="BPX-OA-8Ff" eventType="touchUpInside" id="bnG-cp-Wbz"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PV-Xi-1Hy">
+                                    <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PV-Xi-1Hy">
                                         <rect key="frame" x="240" y="0.0" width="112" height="116.66666666666667"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="256px-Blank_square"/>
+                                        <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <state key="normal" backgroundImage="256px-Blank_square">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="gridButtonTapped:" destination="BPX-OA-8Ff" eventType="touchUpInside" id="i7v-Zu-EbS"/>
                                         </connections>
@@ -54,7 +56,9 @@
                                     <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YsT-mV-ZeO">
                                         <rect key="frame" x="0.0" y="0.0" width="112" height="116.66666666666667"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="256px-Blank_square"/>
+                                        <state key="normal" backgroundImage="256px-Blank_square">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="gridButtonTapped:" destination="BPX-OA-8Ff" eventType="touchUpInside" id="jf1-9K-MUF"/>
                                         </connections>
@@ -62,15 +66,19 @@
                                     <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xd5-bW-1pM">
                                         <rect key="frame" x="120" y="0.0" width="112" height="116.66666666666667"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="256px-Blank_square"/>
+                                        <state key="normal" backgroundImage="256px-Blank_square">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="gridButtonTapped:" destination="BPX-OA-8Ff" eventType="touchUpInside" id="73C-BO-neD"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" tag="6" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bX3-SB-HPH">
+                                    <button opaque="NO" tag="6" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bX3-SB-HPH">
                                         <rect key="frame" x="240" y="0.0" width="112" height="116.66666666666667"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="256px-Blank_square"/>
+                                        <state key="normal" backgroundImage="256px-Blank_square">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="gridButtonTapped:" destination="BPX-OA-8Ff" eventType="touchUpInside" id="hYz-AS-x56"/>
                                         </connections>
@@ -83,7 +91,9 @@
                                     <button opaque="NO" tag="7" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rAL-VZ-feB">
                                         <rect key="frame" x="0.0" y="0.0" width="112" height="116.66666666666667"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="256px-Blank_square"/>
+                                        <state key="normal" backgroundImage="256px-Blank_square">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="gridButtonTapped:" destination="BPX-OA-8Ff" eventType="touchUpInside" id="yYh-eX-vhh"/>
                                         </connections>
@@ -91,7 +101,9 @@
                                     <button opaque="NO" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuz-fu-dD9">
                                         <rect key="frame" x="120" y="0.0" width="112" height="116.66666666666667"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="256px-Blank_square"/>
+                                        <state key="normal" backgroundImage="256px-Blank_square">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="gridButtonTapped:" destination="BPX-OA-8Ff" eventType="touchUpInside" id="uYd-TH-vqr"/>
                                         </connections>
@@ -99,7 +111,9 @@
                                     <button opaque="NO" tag="9" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jSk-ew-cfC">
                                         <rect key="frame" x="240" y="0.0" width="112" height="116.66666666666667"/>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <state key="normal" backgroundImage="256px-Blank_square"/>
+                                        <state key="normal" backgroundImage="256px-Blank_square">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="gridButtonTapped:" destination="BPX-OA-8Ff" eventType="touchUpInside" id="8Fx-wL-cwb"/>
                                         </connections>
