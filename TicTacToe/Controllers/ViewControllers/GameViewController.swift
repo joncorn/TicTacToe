@@ -153,8 +153,8 @@ class GameViewController: UIViewController {
     // presents a custom alert for when the game is won by a player
     func presentGameWon() {
         guard let currentPlayer = currentPlayer else {return}
-        let alert = UIAlertController(title: "Game Over!", message: "\(currentPlayer.name) annihilated his opponent", preferredStyle: .alert)
-        let winAction = UIAlertAction(title: "Continue the manslaughter!", style: .default) { (action) in
+        let alert = UIAlertController(title: "Game Over!", message: "\(currentPlayer.name) annihilated their opponent", preferredStyle: .alert)
+        let winAction = UIAlertAction(title: "Again!", style: .default) { (action) in
             // clears the board
             self.clear()
             // updates the win count
@@ -170,7 +170,7 @@ class GameViewController: UIViewController {
     // presents a custom alert for when the players draw
     func presentGameDraw() {
         let alert = UIAlertController(title: "Game Over!", message: "The game was a draw", preferredStyle: .alert)
-        let drawAction = UIAlertAction(title: "It can't end like this!", style: .default) { (action) in
+        let drawAction = UIAlertAction(title: "Again!", style: .default) { (action) in
             self.clear()
         }
         alert.addAction(drawAction)
